@@ -1,0 +1,409 @@
+
+.CONTENIDO {
+  width: 100%;
+  height: 500px;
+  background: transparent;
+  position: absolute;
+  top: 550px;
+  left: 0;
+}
+
+.caracteristicas {
+  font-size: 25px;
+  font: bold;
+  position: relative;
+  color: white;
+  top: 0;
+  left: 40%;
+}
+
+.diversion {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  border: 3px solid gray;
+  background: black;
+  border-radius: 30px;
+}
+
+.titulo-1 {
+  font: bold;
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.descripcion-1 {
+  font: message-box;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.imagen-1 {
+  image-rendering: auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  border: 3px solid gray;
+  object-fit: cover;
+  position: absolute;
+  background-image: url("https://i.imgur.com/IrJUWX2.png");
+  top: 0px;
+  left: 800px;
+
+}
+
+.musica {
+  width: 520px;
+  height: 200px;
+  position: relative;
+  top: 280px;
+  border: 3px solid gray;
+  background: black;
+  border-radius: 30px;
+}
+
+.titulo-2 {
+  font: bold;
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.descripcion-2 {
+  font: message-box;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.imagen-2 {
+  image-rendering: auto;
+  width: 570px;
+  height: 400px;
+  border-radius: 20px;
+  border: 3px solid gray;
+  object-fit: cover;
+  position: absolute;
+  background-image: url("https://i.imgur.com/P1ZxkMD.png");
+  top: 0px;
+  left: 750px;
+
+}
+
+.bug-repport {
+  width: 520px;
+  height: 200px;
+  position: relative;
+  top: 580px;
+  left: 420px;
+  border: 3px solid gray;
+  background: black;
+  border-radius: 30px;
+}
+
+.titulo-3 {
+  font: bold;
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.descripcion-3 {
+  font: message-box;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.imagen-3 {
+  image-rendering: auto;
+  width: 301px;
+  height: 73px;
+  border-radius: 20px;
+  border: 3px solid gray;
+  object-fit: cover;
+  position: absolute;
+  background-image: url("https://i.imgur.com/YZwOBT1.png");
+  top: 250px;
+  right: 150px;
+
+}
+
+.imagen-3_1 {
+  image-rendering: auto;
+  width: 318px;
+  height: 160px;
+  border-radius: 20px;
+  border: 3px solid gray;
+  object-fit: cover;
+  position: absolute;
+  background-image: url("https://i.imgur.com/mFWFyW2.png");
+  top: 280px;
+  right: 20px;
+
+}
+
+.NombreBot {
+  font-family:"Times New Roman";
+  font-size: 42px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 280px;
+  left: 13%;
+ 
+}
+
+.centro-header {
+  width: 500px;
+  height: 500px;
+  background: transparent;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 35%;
+}
+
+.navegador {
+  width: 500px;
+  height: 50px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+
+.Inicio {
+  font-weight: 300;
+  font-size: 20px;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  left: 20px;
+  top: 5px;
+}
+
+.Dashboard {
+  font-weight: 300px;
+  font-size: 20px;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  left: 25%;
+  top: 5px;
+}
+
+.Dashboard-Imagen {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  position: absolute;
+  background-image: url("https://i.imgur.com/TdRZNva.png");
+  top: 5px;
+  left: 20%;
+}
+
+.Invite {
+  font-weight: 300px;
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  left: 55%;
+  top: 5px;
+}
+
+.Invite-Imagen {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  position: absolute;
+  background-image: url("https://i.imgur.com/0Hee9Ii.png");
+  top: 5px;
+  left: 50%;
+}
+
+.marco-logo {
+  width:200px;
+  padding:10px;
+  border:10px solid white;
+  margin:10px;
+  height: 200px;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.logo {
+  width: 235px;
+  height: 235px;
+  position: absolute;
+  border-radius: 50%;
+  top: 18%;
+  left: 18%;
+  background-image: url("https://static.wixstatic.com/media/5399e6_9611ef68f0dd430b8db37cdeb62e5fca~mv2.jpg/v1/fill/w_224,h_224,al_c,q_80,usm_0.66_1.00_0.01/5399e6_9611ef68f0dd430b8db37cdeb62e5fca~mv2.webp");
+}
+
+.agregar-boton {
+  font-weight: 600px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 35px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+.header {
+  width: 100%;
+  height: 500px;
+  background: rgb(50, 65, 88, 1);
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+.agregalo-ya {
+  width: 317px;
+  height: 60px;
+  background: transparent;
+  position: relative;
+  top: 900px;
+  left: 40%;
+}
+
+.agregalo-ya-texto {
+  font-weight: 600px;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 40%;
+  left: 10%;
+}
+
+.agregame-boton {
+  font-weight: 600px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 35px;
+  position: absolute;
+  top: 110%;
+}
+
+.Footer {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background: black;
+  top: 350%;
+}
+
+.footer-info-1 {
+  position: absolute;
+  color: white;
+  left: 10px;
+}
+
+.Creador-1 {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 70px;
+  left: 10px;
+}
+
+.Creador-2 {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 100px;
+  left: 10px;
+}
+
+.footer-info-2 {
+  position: absolute;
+  color: white;
+  left: 300px;
+}
+
+.Ayudante-1 {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 70px;
+  left: 300px;
+}
+
+.Ayudante-2 {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 100px;
+  left: 300px;
+}
+
+.Ayudante-3 {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 130px;
+  left: 300px;
+}
+
+.footer-info-3 {
+  position: absolute;
+  color: white;
+  right: 10px;
+}
+
+.Soporte {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 70px;
+  right: 10px;
+}
+
+.Twitter {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 100px;
+  right: 10px;
+}
+
+body {
+  font-family: Arial,Helvetica,sans-serif;
+  background: rgb(42, 42, 42, 1);
+}
+
+
+
