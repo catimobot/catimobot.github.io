@@ -8,6 +8,15 @@
   left: 0;
 }
 
+.contenido-dashboard {
+  font-size: 50px;
+  background: transparent;
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 35%;
+}
+
 .caracteristicas {
   font-size: 25px;
   font: bold;
@@ -316,6 +325,14 @@
   border-radius: 35px;
   position: absolute;
   top: 110%;
+}
+
+.agregame-boton:hover {
+  background: rgba(255, 255, 255, 0.356);
+}
+
+.agregar-boton:hover {
+  background: rgba(255, 255, 255, 0.356);
 }
 
 .Footer {
