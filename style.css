@@ -1,426 +1,428 @@
-
-.CONTENIDO {
-  width: 100%;
-  height: 500px;
-  background: transparent;
-  position: absolute;
-  top: 550px;
-  left: 0;
+/* BODY */
+body {
+    background: rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.contenido-dashboard {
-  font-size: 50px;
-  background: transparent;
-  position: absolute;
-  color: white;
-  top: 40%;
-  left: 35%;
-}
+/* CONTENIDO */
+.contenido {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 
-.caracteristicas {
-  font-size: 25px;
-  font: bold;
-  position: relative;
-  color: white;
-  top: 0;
-  left: 40%;
-}
-
-.diversion {
-  width: 500px;
-  height: 200px;
-  position: relative;
-  border: 3px solid gray;
-  background: black;
-  border-radius: 30px;
-}
-
-.titulo-1 {
-  font: bold;
-  color: white;
-  position: relative;
-  top: 10px;
-  left: 20px;
-}
-
-.descripcion-1 {
-  font: message-box;
-  color: white;
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
-
-.imagen-1 {
-  image-rendering: auto;
-  width: 400px;
-  height: 400px;
-  border-radius: 20px;
-  border: 3px solid gray;
-  object-fit: cover;
-  position: absolute;
-  background-image: url("https://i.imgur.com/IrJUWX2.png");
-  top: 0px;
-  left: 800px;
-
-}
-
-.musica {
-  width: 520px;
-  height: 200px;
-  position: relative;
-  top: 280px;
-  border: 3px solid gray;
-  background: black;
-  border-radius: 30px;
-}
-
-.titulo-2 {
-  font: bold;
-  color: white;
-  position: relative;
-  top: 10px;
-  left: 20px;
-}
-
-.descripcion-2 {
-  font: message-box;
-  color: white;
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
-
-.imagen-2 {
-  image-rendering: auto;
-  width: 570px;
-  height: 400px;
-  border-radius: 20px;
-  border: 3px solid gray;
-  object-fit: cover;
-  position: absolute;
-  background-image: url("https://i.imgur.com/P1ZxkMD.png");
-  top: 0px;
-  left: 750px;
-
-}
-
-.bug-repport {
-  width: 520px;
-  height: 200px;
-  position: relative;
-  top: 580px;
-  left: 420px;
-  border: 3px solid gray;
-  background: black;
-  border-radius: 30px;
-}
-
-.titulo-3 {
-  font: bold;
-  color: white;
-  position: relative;
-  top: 10px;
-  left: 20px;
-}
-
-.descripcion-3 {
-  font: message-box;
-  color: white;
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
-
-.imagen-3 {
-  image-rendering: auto;
-  width: 301px;
-  height: 73px;
-  border-radius: 20px;
-  border: 3px solid gray;
-  object-fit: cover;
-  position: absolute;
-  background-image: url("https://i.imgur.com/YZwOBT1.png");
-  top: 250px;
-  right: 150px;
-
-}
-
-.imagen-3_1 {
-  image-rendering: auto;
-  width: 318px;
-  height: 160px;
-  border-radius: 20px;
-  border: 3px solid gray;
-  object-fit: cover;
-  position: absolute;
-  background-image: url("https://i.imgur.com/mFWFyW2.png");
-  top: 280px;
-  right: 20px;
-
-}
-
-.NombreBot {
-  font-family:"Times New Roman";
-  font-size: 42px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 280px;
-  left: 13%;
- 
-}
-
-.centro-header {
-  width: 500px;
-  height: 500px;
-  background: transparent;
-  position: absolute;
-  margin: 0;
-  top: 0;
-  left: 35%;
-}
-
-.navegador {
-  width: 500px;
-  height: 50px;
-  background: transparent;
-  position: absolute;
-  top: 0;
-  left: 0%;
-}
-
-.Inicio {
-  font-weight: 300;
-  font-size: 20px;
-  position: absolute;
-  text-decoration: none;
-  color: white;
-  left: 20px;
-  top: 5px;
-}
-
-.Dashboard {
-  font-weight: 300px;
-  font-size: 20px;
-  position: absolute;
-  text-decoration: none;
-  color: white;
-  left: 25%;
-  top: 5px;
-}
-
-.Dashboard-Imagen {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
-  position: absolute;
-  background-image: url("https://i.imgur.com/TdRZNva.png");
-  top: 5px;
-  left: 20%;
-}
-
-.Invite {
-  font-weight: 300px;
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  text-decoration: none;
-  left: 55%;
-  top: 5px;
-}
-
-.Invite-Imagen {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
-  position: absolute;
-  background-image: url("https://i.imgur.com/0Hee9Ii.png");
-  top: 5px;
-  left: 50%;
-}
-
-.marco-logo {
-  width:200px;
-  padding:10px;
-  border:10px solid white;
-  margin:10px;
-  height: 200px;
-  border-radius: 50%;
-  background: transparent;
-  position: absolute;
-  top: 15%;
-  left: 15%;
+/* HEADER */
+.header {
+    width: 100%;
+    height: 500px;
+    background: rgb(50, 65, 88, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .logo {
-  width: 235px;
-  height: 235px;
-  position: absolute;
-  border-radius: 50%;
-  top: 18%;
-  left: 18%;
-  background-image: url("https://static.wixstatic.com/media/5399e6_9611ef68f0dd430b8db37cdeb62e5fca~mv2.jpg/v1/fill/w_224,h_224,al_c,q_80,usm_0.66_1.00_0.01/5399e6_9611ef68f0dd430b8db37cdeb62e5fca~mv2.webp");
+    width: 280px;
+    height: 280px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid white;
+    top: 15%;
+    left: 35%;
+    background-image: url("https://static.wixstatic.com/media/5399e6_9611ef68f0dd430b8db37cdeb62e5fca~mv2.jpg/v1/fill/w_224,h_224,al_c,q_80,usm_0.66_1.00_0.01/5399e6_9611ef68f0dd430b8db37cdeb62e5fca~mv2.webp");
 }
 
-.agregar-boton {
-  font-weight: 600px;
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: transparent;
-  border-width: 3px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 35px;
-  position: absolute;
-  top: 80%;
-  left: 10%;
+.header h1 {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 70%;
+    left: 39%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.header {
-  width: 100%;
-  height: 500px;
-  background: rgb(50, 65, 88, 1);
-  position: absolute;
-  margin: 0;
-  top: 0;
-  left: 0;
+.botona1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 35px;
+    position: absolute;
+    top: 85%;
+    left: 35%;
 }
 
-.agregalo-ya {
-  width: 317px;
-  height: 60px;
-  background: transparent;
-  position: relative;
-  top: 900px;
-  left: 40%;
+.botona1:hover {
+    background: rgba(255, 255, 255, 0.459);
 }
 
-.agregalo-ya-texto {
-  font-weight: 600px;
-  font-size: 30px;
-  color: white;
-  position: relative;
-  top: 40%;
-  left: 10%;
+/* CONTENIDO */
+.titulo1 {
+    position: absolute;
+    top: 550px;
+    left: 35%;
+    color: white;
 }
 
-.agregame-boton {
-  font-weight: 600px;
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: transparent;
-  border-width: 3px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 35px;
-  position: absolute;
-  top: 110%;
+.modulo1 {
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    border: 5px solid gray;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    animation: lateralL 1.5s ease 0s 1 normal forwards running;
 }
 
-.agregame-boton:hover {
-  background: rgba(255, 255, 255, 0.356);
+.modulo2 {
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    border: 5px solid gray;
+    position: absolute;
+    top: 1150px;
+    right: 50px;
+    animation: lateralR 1.5s ease-in 0s 1;
 }
 
-.agregar-boton:hover {
-  background: rgba(255, 255, 255, 0.356);
+.modulo3 {
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    border: 5px solid gray;
+    position: absolute;
+    top: 1650px;
+    left: 50px;
+    animation: lateralR 1.5s ease-in 0s 1;
 }
 
+.modulo1 p {
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+.modulo2 p {
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+.modulo3 p {
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+.modulo1 h1 {
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+.modulo2 h1 {
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+.modulo3 h1 {
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+.imagen1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    object-fit: cover;
+    position: absolute;
+    top: 700px;
+    right: 50px;
+    background-image: url(https://i.imgur.com/IrJUWX2.png);
+    animation: image-lateralR 1.5s ease 0s 1 normal forwards running;
+}
+
+.imagen2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    object-fit: cover;
+    position: absolute;
+    top: 1150px;
+    left: 50px;
+    background-image: url(https://i.imgur.com/P1ZxkMD.png);
+    animation: image-lateralL 1.5s ease 0s 1 normal forwards running;
+}
+
+.imagen3 {
+    width: 318px;
+    height: 160px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    background-size: cover;
+    position: absolute;
+    top: 1650px;
+    right: 50px;
+    background-image: url(https://i.imgur.com/mFWFyW2.png);
+    animation: image-lateralR 1.5s ease 0s 1 normal forwards running;
+}
+
+.imagen4 {
+    width: 301px;
+    height: 73px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    object-fit: cover;
+    position: absolute;
+    top: 1650px;
+    right: 150px;
+    background-image: url(https://i.imgur.com/YZwOBT1.png);
+    animation: image-lateralR 1.5s ease 0s 1 normal forwards running;
+}
+
+/* ANIMACION */
+@keyframes lateralL {
+    0% {
+      left: -100px;
+      background: rgba(0, 0, 0, 0.034);
+      border: 5px solid rgba(128, 128, 128, 0.034);
+    }
+  }
+
+  @keyframes lateralR {
+    0% {
+      right: -100px;
+      background: rgba(0, 0, 0, 0.034);
+      border: 5px solid rgba(128, 128, 128, 0.034);
+    }
+  }
+
+  @keyframes image-lateralL {
+    0% {
+      left: -100px;
+    }
+  }
+
+  @keyframes image-lateralR {
+    0% {
+      right: -100px;
+    }
+  }
+
+/* NAVEGADOR */
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(50, 65, 88, 1);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #d9db43;
+}
+
+.active:hover {
+    background-color: #d9db43;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.267);
+}
+
+/* FOOTER */
 .Footer {
-  width: 100%;
-  height: 200px;
-  position: absolute;
-  background: black;
-  top: 350%;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    background: black;
+    top: 300%;
+    left: 0;
+  }
+  
+  .footer-info-1 {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    left: 10px;
+  }
+  
+  .Creador-1 {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 70px;
+    left: 10px;
+  }
+  
+  .Creador-2 {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 10px;
+  }
+  
+  .footer-info-2 {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    left: 300px;
+  }
+  
+  .Ayudante-1 {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 70px;
+    left: 300px;
+  }
+  
+  .Ayudante-2 {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 300px;
+  }
+  
+  .Ayudante-3 {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 300px;
+  }
+  
+  .footer-info-3 {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    right: 10px;
+  }
+  
+  .Soporte {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 70px;
+    right: 10px;
+  }
+  
+  .Twitter {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 100px;
+    right: 10px;
+  }
+
+/* DASHBOARD */
+.contenido-dashboard {
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 40%;
 }
 
-.footer-info-1 {
-  position: absolute;
-  color: white;
-  left: 10px;
+/* RESPONSIVE */
+@media screen and (max-width: 800px){
+    .contenido {
+      width: 100%;
+    }
+    .logo {
+        width: 235px;
+        height: 235px;
+        top: 25%;
+        left: 25%;
+    }
+    .header h1 {
+        top: 70%;
+        left: 32%;
+    }
+    .botona1 {
+        top: 85%;
+        left: 22%;
+    }
+    .titulo1 {
+        left: 22%;
+    }
+    .modulo1 {
+        left: 50px;
+    }
+    .imagen1 {
+        top: 950px;
+    }
+    .modulo2 {
+        left: 50px;
+        top: 1380px;
+    }
+    .imagen2 {
+        top: 1620px;
+    }
+    .modulo3 {
+        left: 50px;
+        top: 2050px;
+    }
+    .imagen3 {
+        top: 2300px;
+    }
+    .imagen4 {
+        top: 2280px;
+    }
+    .Footer {
+        top: 400%;
+        height: 22%;
+    }
+    .Footer a {
+        font-size: 10px;
+    }
+    .Footer h1 {
+        font-size: 10px;
+        top: 10px;
+    }
 }
-
-.Creador-1 {
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  top: 70px;
-  left: 10px;
-}
-
-.Creador-2 {
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  top: 100px;
-  left: 10px;
-}
-
-.footer-info-2 {
-  position: absolute;
-  color: white;
-  left: 300px;
-}
-
-.Ayudante-1 {
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  top: 70px;
-  left: 300px;
-}
-
-.Ayudante-2 {
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  top: 100px;
-  left: 300px;
-}
-
-.Ayudante-3 {
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  top: 130px;
-  left: 300px;
-}
-
-.footer-info-3 {
-  position: absolute;
-  color: white;
-  right: 10px;
-}
-
-.Soporte {
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  top: 70px;
-  right: 10px;
-}
-
-.Twitter {
-  font-size: 20px;
-  position: absolute;
-  color: white;
-  top: 100px;
-  right: 10px;
-}
-
-body {
-  font-family: Arial,Helvetica,sans-serif;
-  background: rgb(42, 42, 42, 1);
-}
-
-
-
