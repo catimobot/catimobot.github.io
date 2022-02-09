@@ -8,5 +8,5 @@ function getMensaje(){
 }
 
 setTimeout(function() {
-    location.href = "/inicio";
-  }, 10000);
+    location.href = "/inicio.html";
+  }, 7000);
