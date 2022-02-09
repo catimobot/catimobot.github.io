@@ -1,0 +1,130 @@
+body {
+    background-color: #36393F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/* Contenido Página */
+img {
+    width: 256px;
+    max-width: 98%;
+}
+a {
+    text-decoration: none;
+    color: rgb(46, 95, 255);
+}
+.Titulo {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.deestyleo {
+    background-color: #2F3136;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 94%;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.marlonop {
+    background-color: #2F3136;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 94%;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+.catimoco {
+    background-color: #2F3136;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 94%;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+/* Footer */
+.footer {
+    color: white;
+    background-color: #36393F;
+    position: absolute;
+    top: 180%;
+    width: 98%;
+    height: 100px;
+}
+
+/* Scroll Bar */
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #1c1d27;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(59, 59, 59);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #1c1d27;  /* creates padding around scroll thumb */
+}
+
+/* Navegation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #202225;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}  
+li {
+    float: left;
+}  
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.active {
+    background-color: #FDC447;
+}
+.active:hover {
+    background-color: #FDC447;
+}
+li a:hover {
+    background-color: #111;
+}
+
+/* Movil */
+
+@media screen and (max-width: 800px){
+    .deestyleo {
+        left: 1%;
+    }
+    .marlonop {
+        left: 1%;
+        top: 85%;
+    }
+    .catimoco {
+        left: 1%;
+        top: 160%;
+    }
+    .footer {
+        left: 0;
+        top: 230%;
+    }
+}

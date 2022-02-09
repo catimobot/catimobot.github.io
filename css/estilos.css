@@ -1,0 +1,215 @@
+body {
+    background-color: #36393F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.textos-header {
+    position: relative;
+    top: 10px;
+    left: 25%;
+    width: 50%;
+    font-size: small;
+}
+.header{
+    position: static;
+    top: 50px;
+    display: block;
+    text-align: center;
+}
+.header-background{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("/img/header.jpg");
+}
+.header img {
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0 1em 1em black;
+}
+
+/* Contenido Pagina */
+.contenedor {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #36393F;
+}
+img, video {
+    height: auto;
+    max-width: 90%;
+    border-radius: 2%;
+}
+.contenedor-00A {
+    background-color: #2F3136;
+    width: 550px;
+    max-width: 98%;
+    height: 520px;
+    min-height: 440px;
+    top: 2%;
+    position: relative;
+    border-radius: 2%;
+    text-align: center;
+    left: 1%;
+    overflow: hidden;
+}
+.contenedor-01A {
+    background-color: #2F3136;
+    width: 550px;
+    max-width: 98%;
+    height: 430px;
+    min-height: 400px;
+    top: 20%;
+    position: relative;
+    border-radius: 2%;
+    text-align: center;
+    left: 53%;
+    overflow: hidden;
+}
+.contenedor-02A {
+    background-color: #2F3136;
+    width: 550px;
+    max-width: 98%;
+    height: 430px;
+    min-height: 370px;
+    top: 40%;
+    position: relative;
+    border-radius: 2%;
+    text-align: center;
+    left: 1%;
+    overflow: hidden;
+}
+.contenedor-03A {
+    background-color: #2F3136;
+    width: 550px;
+    max-width: 98%;
+    height: 280px;
+    min-height: 280px;
+    top: 60%;
+    position: relative;
+    border-radius: 2%;
+    text-align: center;
+    left: 30%;
+    overflow: hidden;
+}
+.boton-00A {
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 3px;
+    background-color: #23272A;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 110px;
+    top: 150px;
+}
+.boton-00A:hover {
+    background-color: #1D2123;
+}
+.resource {
+    border-radius: 20px;
+}
+.sectionline-00A {
+    border: 1px solid white;
+    opacity: 10%;
+    width: 90%;
+    position: relative;
+    top: 12%;
+    left: 5%;
+}
+.sectionline-01A {
+    border: 1px solid white;
+    opacity: 10%;
+    width: 90%;
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+.sectionline-02A {
+    border: 1px solid white;
+    opacity: 10%;
+    width: 90%;
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+/* Footer */
+.footer {
+    color: white;
+    background-color: #36393F;
+    position: relative;
+    top: 80%;
+    width: 100%;
+    height: 100px;
+}
+
+/* Scroll Bar */
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #1c1d27;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(59, 59, 59);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #1c1d27;  /* creates padding around scroll thumb */
+}
+
+/* Navegation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #202225;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}  
+li {
+    float: left;
+}  
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.active {
+    background-color: #FDC447;
+}
+.active:hover {
+    background-color: #FDC447;
+}
+li a:hover {
+    background-color: #111;
+}
+  
+/* Movil */
+
+@media screen and (max-width: 800px){
+    .contenedor-01A {
+        left: 1%;
+    }
+    .contenedor-03A {
+        left: 1%;
+    }
+    .boton-00A {
+        left: 7%;
+    }
+}
